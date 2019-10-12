@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:27017" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration>
+              <option name="proxyPassword" value="r00tUser" />
+              <option name="proxyUrl" value="mongo &quot;mongodb+srv://myfirstcluster-ekkz4.mongodb.net/test&quot; --username root" />
+              <option name="proxyUser" value="root" />
+            </SshTunnelingConfiguration>
+          </option>
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:27017" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="authenticationDatabase" value="admin" />
+          <option name="authenticationMechanism" value="SCRAM-SHA-1" />
+          <option name="label" value="test" />
+          <option name="password" value="r00tUser" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:27017" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="userDatabase" value="myFirstDB" />
+          <option name="username" value="root" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="authenticationMechanism" value="SCRAM-SHA-1" />
+          <option name="password" value="010203" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:80" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="username" value="root" />
+        </ServerConfiguration>
+      </list>
+    </option>
+    <option name="shellPath" value="C:\mongodb-win32-x86_64-2012plus-4.2.0\bin\mongo.exe" />
+  </component>
+</project>
